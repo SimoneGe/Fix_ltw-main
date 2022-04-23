@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+body {
+    font-family: "montserrat";
+    background-color:#434547;
+    color:white;
+    
+}
+
+/*navbar*/
+
+.navx{
+    background-color: #007cc7;
+   }
+   
+   
+.navbar-brand{
+    padding-right: 10px;
+    margin:0%;
+}
+
+
+
+#log{
+    padding-left: 330px;
+}
+#Login:hover{
+    background-color:#007cc7 ;
+}
+#Register:hover{
+    background-color:#007cc7 ;
+}
+
+.nav-item:hover{
+    background-color: darkslateblue;
+}
+  
+
+/*Fine navbar*/
+
+h1{
+    
+    text-align: center;
+}
+/*
+h2 {
+    padding-left: 3%;
+}
+*/
+
+
+p.descrizione {
+    font-size: medium;
+}
+
+p.rimando {
+    font-size: smaller;
+    text-align: center;
+}
+
+
+li {
+    font-size: medium;
+}
+
+
+
+a.allineamento{
+    position: absolute;
+    left: 300px;
+    color:white;
+
+}
+
+a.allineamento:hover{
+   color: blue;
+}
+
+a.rim {
+    position: inherit;
+}
+
+
+.imgConv {
+    position: absolute;
+    padding-left: 30px;
+    
+}
+.b{
+    padding-left: 600px;
+  }
+
+
+

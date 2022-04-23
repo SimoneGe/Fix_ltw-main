@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Importa monserrat, font utilizzato in tutto il sito */
+
+body {
+  
+  font-family: "montserrat";
+  color: rgb(255, 255, 255);
+  background-color: #434547;
+  
+}
+
+hr{
+  background-color: grey;
+  height: 5px;
+}
+
+/*navbar*/
+
+.navx{
+ background-color: #007cc7;
+}
+
+
+.navbar-brand{
+  padding-right: 10px;
+  margin:0%;
+}
+
+
+
+#log{
+  padding-left: 330px;
+}
+#Login:hover{
+  background-color:#007cc7 ;
+}
+#Register:hover{
+  background-color:#007cc7 ;
+}
+
+.nav-item:hover{
+  background-color: darkslateblue;
+}
+
+/*titolo*/
+
+.titolo{
+
+  font-size: 500%;
+}
+
+
+.titolo2{
+
+  color: #007cc7;
+  font-size: 400%;
+  text-align: center;
+}
+
+
+
+
+/*Carousel*/
+
+.carosello-img{
+  opacity: 0.25;
+  object-fit: cover;
+  max-height: 700px;
+  
+}
+.carosello-text{
+  top: 50%;
+}
+
+a{
+  color: white;
+  
+}
+.carosello-text a:hover {
+  background-color: white;
+  transition: 0.2s;
+}
+
+
+
+/*Card Homepage*/
+.cards{
+  max-width: 1200px;
+ margin: 40px auto;
+ height: 50px;
+}
+
+
+.card{
+ border: 4px solid white;
+  width: 30%;
+   margin: 0 1.5%;
+ float: left;  
+ background-color:#434547 ;
+}
+
+.card__img{
+ width: 100%;
+ max-height: 300px;
+ 
+}
+
+/*footer*/
+
+
+
+
+.xx-small{
+ text-align: center;
+ font-size: xx-small;
+}
+
+
+
+/*FINE HOMEPAGE*/
+
+/*REGISTRAZIONE*/
+#logoReg{
+  padding-left: 700px;
+
+
+}
+
+
+
+
+/*CONTATTI*/
+
+.intestazione{
+    
+    padding-top: 50px; 
+    padding-bottom: 50px;
+  }
+.intestazione h1{
+    
+    text-align: center;
+    font-size: 400%;
+  }
+  .intestazione h2{
+    
+    text-align: center;
+    font-size: 200%;
+  }
+.intestazione h3{
+    
+    text-align: center;
+    font-size: 100%;
+}
+
+.col-lg-4{
+
+
+    
+    text-align: center;
+    padding-left : 150px;
+}
+.col-xl-8{
+
+text-align: center;
+}
+
+
+.div-opinioni{
+  
+  text-align: center;
+    margin-bottom: 80px; 
+    width: 50%; 
+    margin: auto;
+  
+
+
+}
+
+
+
+.testo{
+  padding-left: 30px;
+  
+
+}
+.video{
+
+
+  text-align:center;
+  
+
+}
+.vid{
+border: solid blue 12px;
+
+}h2{
+  text-align: center;
+}
+
+.py-1{
+
+
+  text-align: center;
+}
+
+
+.form-signin{
+ padding-top: 50px;
+  text-align: center;
+}
+
+
+.inputt{
+
+ padding-left: 650px;
+ padding-right: 650px;
+}
+
+
+
+
+.int{
+  text-align: center;
+
+
+}
+
+
+
+#inviaT{
+
+  resize: none;
+}
+

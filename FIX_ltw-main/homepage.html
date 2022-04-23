@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+    <title>Fix - HomePage</title>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <!--
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="stili/style.css">
+        <script text="text/javascript" src="funzioni/fun.js" ></script>
+
+    </head>
+    
+    <body onload="return verificaAccessoHome();">
+      <div class="navx">
+              <nav class="navbar navbar-expand-lg navbar-dark"  >
+                <a class="navbar-brand" href="homepage.html">
+                    <img src="imm/fixlogo.png" width="70" height="70" alt=""  >
+                </a>
+              
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+              <span class="sr-only"></span> </a>
+                <a class="nav-item nav-link active" href="tutorials.html" ><strong><h2>Tutorials</h2></strong> </a>
+                <a class="nav-item nav-link active" href="conversioni.html"><strong><h2>Conversioni</h2></strong> </a>
+                <a class="nav-item nav-link active" href="strumenti.html"><strong><h2>Strumenti</h2></strong> </a>
+                <a class="nav-item nav-link active" href="contatti.html"><strong><h2>Contatti</h2></strong> </a>
+                <a class="nav-item nav-link active" href="utility.html"><strong><h2>Utility</h2></strong> </a>
+                <div id="log">
+                    <a class="nav-item nav-link active login" id="Login" href="login/index.html"><strong><h2>Sign In</h2></strong> </a>
+                </div>
+                <a class="nav-item nav-link active login" id="Register" href="registrazione/registrazione.html"><strong><h2>Sign Up</h2></strong> </a>
+      
+                </div>
+        </div>    
+              </nav>
+      </div>
+
+<br><br><br>
+     <div class="int">
+            <h1 class="titolo"><strong>FIX</strong></h1><br><br>
+          <h3>Fix nasce per dare supporto a chi è alle prime armi col computer , offrendo
+            diversi strumenti ed utility.<br> 
+            In questa pagina puoi trovare anche strumenti di carattere più matematico che ti daranno una mano nei tuoi studi scientifici
+          </h3>
+</div>
+<br><br>
+
+<hr>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+
+    </ul>
+  
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" >
+        <a href="strumenti.html"> 
+        <img class="w-100 carosello-img" src="imm/strumenti.jpg"  alt="..."></a>
+        <div class="carousel-caption carosello-text">
+            <h1><strong>STRUMENTI</strong></h1>
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <a href="utility.html" >
+        <img class="w-100 carosello-img" src="imm/pc2.jpg" alt="..."></a>
+        <div class="carousel-caption carosello-text">
+            <h1><strong>UTILITY</strong></h1>
+        </div>
+        
+      </div>
+      <div class="carousel-item">
+        <a href="conversioni.html" ></a>
+          <img class="w-100 carosello-img" src="imm/Conversioni.jpg" alt="..."></a>
+          <div class="carousel-caption carosello-text">
+            <h1><strong>CONVERSIONI</strong></h1>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="tutorials.html" >
+          <img class="w-100 carosello-img" src="imm/tutorials.jpg" alt="tutorials"></a>
+          <div class="carousel-caption carosello-text">
+            <h1><strong>TUTORIALS</strong></h1>
+        </div>
+    </div>
+    </div>
+
+
+  
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  
+  </div>
+  <br><br>
+
+  <hr>
+
+  <h1 class="titolo2">NEWS E CURIOSITA'</h1>
+
+
+  <br><br>
+
+    <div class="cards">
+                <div class="card">
+                  <img class="card__img" src="imm/chip.png" alt="">
+                  <h3 class="nero">Carenza di chip</h3>
+                  <p class="nero">La scarsità di microprocessori sta rallentando interi settori economici. Le cause sono molte, le soluzioni lunghe e complicate
+                  </p>
+                  <a href="https://assoprovider.it/ict-village-la-fiera-virtuale-3d-informatica/" >Continua a leggere</a>
+              </div>
+
+
+              <div class="card" >
+                <img class="card__img"id="im2"  src="imm/cyb.png" alt="">
+                <h3>Cybersecurity</h3>
+                <p class="nero">Continua il trend di crescita degli attacchi cyber nel mondo:
+                  incremento del 12% rispetto al 2019, con il vaccino nel mirino degli hackers.
+                
+
+                </p>
+                <a href="https://www.cybersecurity360.it/nuove-minacce/rapporto-clusit-2021-14-di-attacchi-di-spionaggio-cyber-nel-mirino-i-vaccini-covid-19/">Continua a leggere</a>
+            </div>
+
+
+
+            <div class="card">
+              <img class="card__img" src="imm/nvidia2.png" alt="">
+              <h3>RTX 3080 Ti e 3070 Ti</h3>
+              <p> l’evento si terrà il 31 maggio alle 22 PDT,
+                è assai probabile che vengano annunciate le nuove schede grafiche GeForce della serie RTX 3000 
+              </p>
+              
+              <a href="https://www.tomshw.it/hardware/rtx-3080-ti-e-3070-ti-lannuncio-e-vicino/">Continua a leggere</a>
+            
+          </div>
+
+
+
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          
+          <div>       
+            <footer class="xx-small">© 2021 Copyright: Fix.</footer>
+            </div>
+    </div>
+
+
+  
+          
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+    
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strumenti</title>
+    <script type="text/javascript"  src="funzioni/function.js"></script>
+    <script type="text/javascript" src="funzioni/vue.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="stili/strumenti.css">
+</head>
+<body onload="return inizializza();"> 
+    <h1>Qui trovi delle funzioni che potrebbero fare al caso tuo, dai un'occhiata!</h1><br>
+
+    <div id="convertitore">   
+        <h3 >Convertiore binario-decimale</h3>
+        <table id="table">
+           <tr>
+                <th>Numero decimale</th>
+                <th>Numero binario</th>
+            </tr>
+            <tr>
+                <td><input type="number" placeholder="123456789" id="decimale" ></td>
+                <td><input type="number" placeholder="010101010" id="binario" ></td>
+            </tr>
+            <tr>
+               <td> 
+                   <button onclick="return convertiDecBin();">CONVERTI: Dec-->Bin</button>
+                </td>
+                <td>
+                   <button  onclick="return convertiBinDec();">CONVERTI: Bin-->Dec</button>
+                </td>
+            </tr>
+        </table>
+    </div><br><br>
+
+    <div id="matrici">
+        <h3>Somma di matrici</h3>
+        <p>Ricorda: le 2 matrice per essere sommate devono avere le stesse dimensioni!<br>
+        Scegli le dimensioni:</p> 
+        numero di righe:<input type="number" id="righe" max="10" min=1 value=2><br>
+        numero di colonne:<input type="number" id="colonne" max="10" min=1 value=2><br>
+        <button  id="generaMat" 
+            onclick="return generaMatrici();">Genera matrici</button>
+        <button  id="somma" onclick="return sommaMat();">Somma le matrici</button>
+       <button id="reset" onclick="return resetta_mat();" value="a">Reset</button>
+
+        <div id="mat1" class="mat"></div>
+        <hr>
+        <div id="mat2" class="mat" ></div>
+        <br>
+        <div id="mat3" class="mat"></div>
+        
+        <script type="text/javascript" lang="javascript" src="funzioni/function.js"></script>
+    </div>
+
+    <div id="grafici">
+        <h3>Hai bisogno di un grafico?</h3>
+        <p>In questa sezione puoi vedere quando due funzioni sono uguali!<br>
+           Scrivile in forma esplicita:
+        </p>
+        f1(x)=<input type="text" id="f1" size="7" placeholder="2*x+7"><br>
+        f2(x)=<input type="text" id="f2" size="7" placeholder="2*x+7"><br>
+        <br>
+        <button class="btn btn-primary" onclick="return costruisci();">Costruisci</button>
+        <button class="btn btn-primary"  value="b" onclick="return resetta_graf();">Reset</button>
+    </div>
+    <canvas id="graf" style="width:100%;max-width:700px"></canvas>
+   
+
+    <div id="teoremi">
+        <h3>Ecco alcuni teoremi che sicuramente devi sapere!</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    TEOREMA DEL CONFRONTO
+                    <p><br>Il teorema del confronto è un teorema di analisi matematica. 
+                        Assume forme diverse a seconda del contesto, e permette di calcolare 
+                        il limite di una successione o funzione confrontando questa con altri 
+                        due oggetti analoghi che "si stringono sempre di più" intorno a quello dato.
+                    </p>
+                       <button value="confronto" onclick="caricaDoc1();">DIMOSTRAZIONE</button>
+                </div>
+                <div class="col-xs-3">
+                    TEOREMA UNICITÀ DEL LIMITE
+                    <p><br>Il teorema di unicità del limite è un teorema di matematica, e più precisamente di analisi. 
+                        Assume forme diverse a seconda dei contesti, ed in ciascuno di questi afferma che non possono 
+                        esserci due limiti distinti. Si applica soprattutto a successioni e funzioni.
+                    </p>
+                    <button onclick="caricaDoc2();">DIMOSTRAZIONE</button>
+                </div>
+                <div class="col-xs-3">
+                    TEOREMA DI WEIESTRASS
+                    <p><br>
+                        In analisi matematica, il teorema di Weierstrass è un importante risultato riguardo all'esistenza 
+                        di massimi e minimi di funzioni di variabile reale.
+                    </p>
+                    <button onclick="return caricaDoc3();">DIMOSTRAZIONE</button>
+                </div>
+                <div class="col-xs-3">
+                    TEOREMA PERMANENZA DEL SEGNO
+                    <p><br>
+                        Il teorema della permanenza del segno è un teorema di analisi matematica. Assume forme diverse a 
+                        seconda del contesto, ed afferma che se un limite è strettamente positivo allora l'oggetto che vi 
+                        converge è sempre positivo "da un certo punto in poi" o in un "certo intorno". Si applica soprattutto 
+                        a successioni e funzioni.
+                    </p>
+                    <button onclick="return caricaDoc4();">DIMOSTRAZIONE</button>
+                </div>
+            </div>
+        </div>
+        <div id="dim"></div>
+        
+    </div>
+
+
+
+</body>
+</html>

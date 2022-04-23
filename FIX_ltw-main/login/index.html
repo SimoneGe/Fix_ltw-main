@@ -1,0 +1,57 @@
+
+<html>
+    <head>
+        <title>Login - Fix</title>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" lang="javascript" src="../js/bootstrap.min.js">
+        </script>
+        <script type="text/javascript" lang="javascript" src="script.js">
+        </script>
+    </head>
+    <body>
+        <form action="login.php" class="form-signin"
+                method="POST" name="myForm" onsubmit="return validaForm()">
+
+
+            <img class="mb-4" src="../imm/fixlogo.png" alt=""
+                width="150" height="120"/>
+                <br>
+
+            <h1 class="h3 mb-3"><strong>Accedi</strong></h1>
+            <div class="inputt">
+                <input type="email" name="inputEmail" class="form-control" placeholder="Indirizzo email" autofocus/>
+                <input type="password" name="inputPassword" class="form-control" placeholder="Password" />
+            </div>
+            
+            <div id="divRemember" class="checkbox mb-3">
+                <input type="checkbox" name="remember"/>
+                <label for="remember">Remember me</label>
+            </div>
+            <button class="btn btn-lg btn-primary" name="loginButton"
+                type="submit">Accedi</button>
+            <br><br><br>
+
+            <strong>Prima volta su Fix?</strong>
+            <br>
+            <a href="../registrazione/registrazione.html "
+            class="btn btn-primary btn-lg " role="button">
+            Registrati
+            </a>
+            
+
+
+                <br><br>
+            <a class="ritorna" href="../homepage.html"  >Torna alla home page</a>
+            
+
+
+            
+        </form>
+        
+
+       
+    </body>
+</html>
